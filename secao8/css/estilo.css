@@ -1,0 +1,109 @@
+:root{
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+body{
+    font-family: "roboto",tamoha,arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 64em;
+    margin: 1.25em auto;
+}
+h1,h2{
+    font-family: 'Viaoda Libre',cursive;
+    font-weight: normal;
+}
+
+.header-moda {
+    display: flex;
+    justify-content: space-between;
+    background: #162028;
+
+}
+.logo {
+    color: white;
+    margin: .5em 0 .5em 8.4375em;
+}
+.navigator ul {
+    margin: 0;
+    padding:0 ;
+}
+.navigator li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 1em 0 0 ;
+    padding: 1em;
+}
+.navigator a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .15em;
+    transition: color .3s linear;
+}
+.navigator a:hover{
+    color: white
+}
+.article-text {
+padding: 0 var(--medium-default-padding) var(--large-default-padding);
+text-align: center;
+}
+.article-text h1 {
+    font-size: 2.25;
+    color: #252525
+}
+.article-text p {
+    
+    font-size: 1em;
+    line-height: 2;
+    color: #555;
+}
+
+.galery{
+    color: #555;
+    padding: 0 var(--large-default-padding) var(--medium-default-padding);
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-images {
+    text-align: center;
+
+}
+.image-title {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1em;
+    font-weight: bold;
+}
+.article-final {
+    background-color: #003d52;
+    padding: var(--large-default-padding);
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.article-final h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.article-final p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+.rodape {
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
